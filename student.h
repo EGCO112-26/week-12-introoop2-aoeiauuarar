@@ -22,7 +22,7 @@ void student::set_name(string x){
 }
 
 void student::print_name(){
-  cout<<"NAME: "<<name<<endl;
+  cout<<"Name: "<<name<<endl;
 }
 
 int student::get_age(){
