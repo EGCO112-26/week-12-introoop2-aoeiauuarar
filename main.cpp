@@ -31,7 +31,7 @@ for(int i = 0; i < (argc-1)/2; i++) {
     }
 }
  // Print all info for the yougest person
-cout<<"Yougest student"<<endl;
+cout<<"Youngest student"<<endl;
 for(int i = 0; i < (argc-1)/2; i++) {
     if (youngest == a[i].get_age()) {
         a[i].print_info();
